@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/aquitania-final-project/", // ADD THIS LINE
+  base: "/Aquitania-Final_Project/", // ADD THIS LINE
 });
