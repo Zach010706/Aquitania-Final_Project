@@ -1,0 +1,22 @@
+.data-stream-track {
+  position: relative;
+  width: 100%; /* Stretch to fill the width of the navbar container */
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.2), transparent);
+  overflow: hidden;
+  border-radius: 99px;
+}
+
+.data-pulse {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 150px; /* Longer pulse for a more cinematic data flow */
+  background: linear-gradient(90deg, transparent, #3b82f6, transparent);
+  animation: movePulse 3s linear infinite;
+}
+
+@keyframes movePulse {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
